@@ -15,6 +15,12 @@
 		9CEC518E1D7554E400BB20AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEC518C1D7554E400BB20AC /* LaunchScreen.storyboard */; };
 		9CEC51991D7554E600BB20AC /* MemoryLeakAvPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC51981D7554E600BB20AC /* MemoryLeakAvPlayerTests.m */; };
 		9CEC51A41D7554E600BB20AC /* MemoryLeakAvPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC51A31D7554E600BB20AC /* MemoryLeakAvPlayerUITests.m */; };
+		9CEC51B61D7556C500BB20AC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC51B51D7556C500BB20AC /* SecondViewController.m */; };
+		9CEC51B81D7557DA00BB20AC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEC51B71D7557DA00BB20AC /* AVFoundation.framework */; };
+		9CEC51BA1D7557E100BB20AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEC51B91D7557E100BB20AC /* Foundation.framework */; };
+		9CEC51BC1D7557E800BB20AC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEC51BB1D7557E800BB20AC /* MediaPlayer.framework */; };
+		9CEC51BE1D75582800BB20AC /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEC51BD1D75582800BB20AC /* AVKit.framework */; };
+		9CEC51C01D75583A00BB20AC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEC51BF1D75583A00BB20AC /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,13 @@
 		9CEC519F1D7554E600BB20AC /* MemoryLeakAvPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryLeakAvPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEC51A31D7554E600BB20AC /* MemoryLeakAvPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryLeakAvPlayerUITests.m; sourceTree = "<group>"; };
 		9CEC51A51D7554E600BB20AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CEC51B41D7556C500BB20AC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9CEC51B51D7556C500BB20AC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9CEC51B71D7557DA00BB20AC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9CEC51B91D7557E100BB20AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9CEC51BB1D7557E800BB20AC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9CEC51BD1D75582800BB20AC /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		9CEC51BF1D75583A00BB20AC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CEC51C01D75583A00BB20AC /* CoreMedia.framework in Frameworks */,
+				9CEC51BE1D75582800BB20AC /* AVKit.framework in Frameworks */,
+				9CEC51BC1D7557E800BB20AC /* MediaPlayer.framework in Frameworks */,
+				9CEC51BA1D7557E100BB20AC /* Foundation.framework in Frameworks */,
+				9CEC51B81D7557DA00BB20AC /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,11 @@
 		9CEC51721D7554E200BB20AC = {
 			isa = PBXGroup;
 			children = (
+				9CEC51BF1D75583A00BB20AC /* CoreMedia.framework */,
+				9CEC51BD1D75582800BB20AC /* AVKit.framework */,
+				9CEC51BB1D7557E800BB20AC /* MediaPlayer.framework */,
+				9CEC51B91D7557E100BB20AC /* Foundation.framework */,
+				9CEC51B71D7557DA00BB20AC /* AVFoundation.framework */,
 				9CEC517D1D7554E300BB20AC /* MemoryLeakAvPlayer */,
 				9CEC51971D7554E500BB20AC /* MemoryLeakAvPlayerTests */,
 				9CEC51A21D7554E600BB20AC /* MemoryLeakAvPlayerUITests */,
@@ -105,6 +128,8 @@
 				9CEC51821D7554E400BB20AC /* AppDelegate.m */,
 				9CEC51841D7554E400BB20AC /* ViewController.h */,
 				9CEC51851D7554E400BB20AC /* ViewController.m */,
+				9CEC51B41D7556C500BB20AC /* SecondViewController.h */,
+				9CEC51B51D7556C500BB20AC /* SecondViewController.m */,
 				9CEC51871D7554E400BB20AC /* Main.storyboard */,
 				9CEC518A1D7554E400BB20AC /* Assets.xcassets */,
 				9CEC518C1D7554E400BB20AC /* LaunchScreen.storyboard */,
@@ -270,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CEC51B61D7556C500BB20AC /* SecondViewController.m in Sources */,
 				9CEC51861D7554E400BB20AC /* ViewController.m in Sources */,
 				9CEC51831D7554E400BB20AC /* AppDelegate.m in Sources */,
 				9CEC51801D7554E300BB20AC /* main.m in Sources */,
