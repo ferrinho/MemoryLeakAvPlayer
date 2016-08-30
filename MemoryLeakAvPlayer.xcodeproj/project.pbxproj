@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CEC51801D7554E300BB20AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC517F1D7554E300BB20AC /* main.m */; };
+		9CEC51831D7554E400BB20AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC51821D7554E400BB20AC /* AppDelegate.m */; };
+		9CEC51861D7554E400BB20AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC51851D7554E400BB20AC /* ViewController.m */; };
+		9CEC51891D7554E400BB20AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEC51871D7554E400BB20AC /* Main.storyboard */; };
+		9CEC518B1D7554E400BB20AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CEC518A1D7554E400BB20AC /* Assets.xcassets */; };
+		9CEC518E1D7554E400BB20AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEC518C1D7554E400BB20AC /* LaunchScreen.storyboard */; };
+		9CEC51991D7554E600BB20AC /* MemoryLeakAvPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC51981D7554E600BB20AC /* MemoryLeakAvPlayerTests.m */; };
+		9CEC51A41D7554E600BB20AC /* MemoryLeakAvPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC51A31D7554E600BB20AC /* MemoryLeakAvPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CEC51951D7554E500BB20AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CEC51731D7554E300BB20AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CEC517A1D7554E300BB20AC;
+			remoteInfo = MemoryLeakAvPlayer;
+		};
+		9CEC51A01D7554E600BB20AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CEC51731D7554E300BB20AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CEC517A1D7554E300BB20AC;
+			remoteInfo = MemoryLeakAvPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CEC517B1D7554E300BB20AC /* MemoryLeakAvPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryLeakAvPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CEC517F1D7554E300BB20AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CEC51811D7554E400BB20AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CEC51821D7554E400BB20AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CEC51841D7554E400BB20AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9CEC51851D7554E400BB20AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9CEC51881D7554E400BB20AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CEC518A1D7554E400BB20AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CEC518D1D7554E400BB20AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CEC518F1D7554E400BB20AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CEC51941D7554E500BB20AC /* MemoryLeakAvPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryLeakAvPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CEC51981D7554E600BB20AC /* MemoryLeakAvPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryLeakAvPlayerTests.m; sourceTree = "<group>"; };
+		9CEC519A1D7554E600BB20AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CEC519F1D7554E600BB20AC /* MemoryLeakAvPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryLeakAvPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CEC51A31D7554E600BB20AC /* MemoryLeakAvPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryLeakAvPlayerUITests.m; sourceTree = "<group>"; };
+		9CEC51A51D7554E600BB20AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CEC51781D7554E300BB20AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CEC51911D7554E500BB20AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CEC519C1D7554E600BB20AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CEC51721D7554E200BB20AC = {
+			isa = PBXGroup;
+			children = (
+				9CEC517D1D7554E300BB20AC /* MemoryLeakAvPlayer */,
+				9CEC51971D7554E500BB20AC /* MemoryLeakAvPlayerTests */,
+				9CEC51A21D7554E600BB20AC /* MemoryLeakAvPlayerUITests */,
+				9CEC517C1D7554E300BB20AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CEC517C1D7554E300BB20AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CEC517B1D7554E300BB20AC /* MemoryLeakAvPlayer.app */,
+				9CEC51941D7554E500BB20AC /* MemoryLeakAvPlayerTests.xctest */,
+				9CEC519F1D7554E600BB20AC /* MemoryLeakAvPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CEC517D1D7554E300BB20AC /* MemoryLeakAvPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				9CEC51811D7554E400BB20AC /* AppDelegate.h */,
+				9CEC51821D7554E400BB20AC /* AppDelegate.m */,
+				9CEC51841D7554E400BB20AC /* ViewController.h */,
+				9CEC51851D7554E400BB20AC /* ViewController.m */,
+				9CEC51871D7554E400BB20AC /* Main.storyboard */,
+				9CEC518A1D7554E400BB20AC /* Assets.xcassets */,
+				9CEC518C1D7554E400BB20AC /* LaunchScreen.storyboard */,
+				9CEC518F1D7554E400BB20AC /* Info.plist */,
+				9CEC517E1D7554E300BB20AC /* Supporting Files */,
+			);
+			path = MemoryLeakAvPlayer;
+			sourceTree = "<group>";
+		};
+		9CEC517E1D7554E300BB20AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CEC517F1D7554E300BB20AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CEC51971D7554E500BB20AC /* MemoryLeakAvPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CEC51981D7554E600BB20AC /* MemoryLeakAvPlayerTests.m */,
+				9CEC519A1D7554E600BB20AC /* Info.plist */,
+			);
+			path = MemoryLeakAvPlayerTests;
+			sourceTree = "<group>";
+		};
+		9CEC51A21D7554E600BB20AC /* MemoryLeakAvPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CEC51A31D7554E600BB20AC /* MemoryLeakAvPlayerUITests.m */,
+				9CEC51A51D7554E600BB20AC /* Info.plist */,
+			);
+			path = MemoryLeakAvPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CEC517A1D7554E300BB20AC /* MemoryLeakAvPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CEC51A81D7554E600BB20AC /* Build configuration list for PBXNativeTarget "MemoryLeakAvPlayer" */;
+			buildPhases = (
+				9CEC51771D7554E300BB20AC /* Sources */,
+				9CEC51781D7554E300BB20AC /* Frameworks */,
+				9CEC51791D7554E300BB20AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoryLeakAvPlayer;
+			productName = MemoryLeakAvPlayer;
+			productReference = 9CEC517B1D7554E300BB20AC /* MemoryLeakAvPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CEC51931D7554E500BB20AC /* MemoryLeakAvPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CEC51AB1D7554E600BB20AC /* Build configuration list for PBXNativeTarget "MemoryLeakAvPlayerTests" */;
+			buildPhases = (
+				9CEC51901D7554E500BB20AC /* Sources */,
+				9CEC51911D7554E500BB20AC /* Frameworks */,
+				9CEC51921D7554E500BB20AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CEC51961D7554E500BB20AC /* PBXTargetDependency */,
+			);
+			name = MemoryLeakAvPlayerTests;
+			productName = MemoryLeakAvPlayerTests;
+			productReference = 9CEC51941D7554E500BB20AC /* MemoryLeakAvPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CEC519E1D7554E600BB20AC /* MemoryLeakAvPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CEC51AE1D7554E600BB20AC /* Build configuration list for PBXNativeTarget "MemoryLeakAvPlayerUITests" */;
+			buildPhases = (
+				9CEC519B1D7554E600BB20AC /* Sources */,
+				9CEC519C1D7554E600BB20AC /* Frameworks */,
+				9CEC519D1D7554E600BB20AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CEC51A11D7554E600BB20AC /* PBXTargetDependency */,
+			);
+			name = MemoryLeakAvPlayerUITests;
+			productName = MemoryLeakAvPlayerUITests;
+			productReference = 9CEC519F1D7554E600BB20AC /* MemoryLeakAvPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CEC51731D7554E300BB20AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = IT;
+				TargetAttributes = {
+					9CEC517A1D7554E300BB20AC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9CEC51931D7554E500BB20AC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9CEC517A1D7554E300BB20AC;
+					};
+					9CEC519E1D7554E600BB20AC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9CEC517A1D7554E300BB20AC;
+					};
+				};
+			};
+			buildConfigurationList = 9CEC51761D7554E300BB20AC /* Build configuration list for PBXProject "MemoryLeakAvPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CEC51721D7554E200BB20AC;
+			productRefGroup = 9CEC517C1D7554E300BB20AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CEC517A1D7554E300BB20AC /* MemoryLeakAvPlayer */,
+				9CEC51931D7554E500BB20AC /* MemoryLeakAvPlayerTests */,
+				9CEC519E1D7554E600BB20AC /* MemoryLeakAvPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CEC51791D7554E300BB20AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEC518E1D7554E400BB20AC /* LaunchScreen.storyboard in Resources */,
+				9CEC518B1D7554E400BB20AC /* Assets.xcassets in Resources */,
+				9CEC51891D7554E400BB20AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CEC51921D7554E500BB20AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CEC519D1D7554E600BB20AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CEC51771D7554E300BB20AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEC51861D7554E400BB20AC /* ViewController.m in Sources */,
+				9CEC51831D7554E400BB20AC /* AppDelegate.m in Sources */,
+				9CEC51801D7554E300BB20AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CEC51901D7554E500BB20AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEC51991D7554E600BB20AC /* MemoryLeakAvPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CEC519B1D7554E600BB20AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEC51A41D7554E600BB20AC /* MemoryLeakAvPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CEC51961D7554E500BB20AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CEC517A1D7554E300BB20AC /* MemoryLeakAvPlayer */;
+			targetProxy = 9CEC51951D7554E500BB20AC /* PBXContainerItemProxy */;
+		};
+		9CEC51A11D7554E600BB20AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CEC517A1D7554E300BB20AC /* MemoryLeakAvPlayer */;
+			targetProxy = 9CEC51A01D7554E600BB20AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CEC51871D7554E400BB20AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CEC51881D7554E400BB20AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CEC518C1D7554E400BB20AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CEC518D1D7554E400BB20AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CEC51A61D7554E600BB20AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9CEC51A71D7554E600BB20AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CEC51A91D7554E600BB20AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemoryLeakAvPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testIT.MemoryLeakAvPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CEC51AA1D7554E600BB20AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemoryLeakAvPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testIT.MemoryLeakAvPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9CEC51AC1D7554E600BB20AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MemoryLeakAvPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testIT.MemoryLeakAvPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoryLeakAvPlayer.app/MemoryLeakAvPlayer";
+			};
+			name = Debug;
+		};
+		9CEC51AD1D7554E600BB20AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MemoryLeakAvPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testIT.MemoryLeakAvPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoryLeakAvPlayer.app/MemoryLeakAvPlayer";
+			};
+			name = Release;
+		};
+		9CEC51AF1D7554E600BB20AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MemoryLeakAvPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testIT.MemoryLeakAvPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MemoryLeakAvPlayer;
+			};
+			name = Debug;
+		};
+		9CEC51B01D7554E600BB20AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MemoryLeakAvPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testIT.MemoryLeakAvPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MemoryLeakAvPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CEC51761D7554E300BB20AC /* Build configuration list for PBXProject "MemoryLeakAvPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CEC51A61D7554E600BB20AC /* Debug */,
+				9CEC51A71D7554E600BB20AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CEC51A81D7554E600BB20AC /* Build configuration list for PBXNativeTarget "MemoryLeakAvPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CEC51A91D7554E600BB20AC /* Debug */,
+				9CEC51AA1D7554E600BB20AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CEC51AB1D7554E600BB20AC /* Build configuration list for PBXNativeTarget "MemoryLeakAvPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CEC51AC1D7554E600BB20AC /* Debug */,
+				9CEC51AD1D7554E600BB20AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CEC51AE1D7554E600BB20AC /* Build configuration list for PBXNativeTarget "MemoryLeakAvPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CEC51AF1D7554E600BB20AC /* Debug */,
+				9CEC51B01D7554E600BB20AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CEC51731D7554E300BB20AC /* Project object */;
+}
